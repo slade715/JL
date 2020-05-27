@@ -1,18 +1,20 @@
 html, body {
-  height: 101%;
   margin: 0;
   text-align: center;
   background-color: #effffb;
 }
 
 hr {
+
+
   border: 0;
   height: 2rem;
   background-image: url(hr.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin: 8rem;
+  margin: 5rem 0 5rem;
+
 }
 
 h1 {
@@ -36,33 +38,44 @@ h3 {
 }
 
 .centered {
-  position: absolute;
-  top: 60%;
-  left: 49.5%;
-  transform: translate(-50%, -50%);
-  width: 20%;
+  position: relative;
+  margin: auto;
+  width: 25rem;
+  bottom: 30rem;
+  right: 1rem;
 }
+.cent {
+
+  position: relative;
+  margin: auto;
+  width: 30rem;
+  bottom: 33rem;
+  left: 6rem;
+}
+
 
 .intro_img {
-  padding-top: 10rem;
+
+
   position: relative;
-  display: inline-block;
-  width: 40%;
+  bottom:0;
+right:15rem;
+  width: 14rem;
   margin: auto;
+
 }
 
-.into_1 {
-  position: relative;
+.second_c {
+
   margin: auto;
   width: 50%;
 }
 
 .into_2 {}
 
-.main_img {
-  background-image: url("jla.jpg");
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+.first_c {
+
+  width:auto;
+  height:auto;
+
 }
